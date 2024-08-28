@@ -1,5 +1,5 @@
 "use strict";
-// Type Alias
+// .................... Type Alias ........................
 // Create Temp name of type 
 // Temporary name
 // Abhishek --> (Abhi)
@@ -15,5 +15,7 @@ order1 = {
     price: 234455,
     status: "This is Status"
 };
-// String literals
-let myName;
+let rectangle = {
+    height: 20,
+    width: 1
+};

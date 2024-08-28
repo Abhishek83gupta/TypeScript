@@ -1,4 +1,4 @@
-// Type Alias
+// .................... Type Alias ........................
 // Create Temp name of type 
 // Temporary name
 // Abhishek --> (Abhi)
@@ -16,12 +16,12 @@ pass = "abc2323";
 console.log(typeof pass);
 
 
+
 type Order = {
  title : string;
  price : number;
  status : string;
 }
-
 let order1 : Order;
 order1 = {
     title :"This is title of order",
@@ -29,6 +29,17 @@ order1 = {
     status : "This is Status"
 };
 
-// String literals
-let myName:"Abhishek  "
 
+
+// ..................................... Interfaces ...................................
+// Interfaces are similar to type aliases, except they only apply to object types.
+
+interface Rectangle {
+    height : number;
+    width : number
+}
+
+let rectangle : Rectangle = {
+    height : 20 ,
+    width : 1
+}
