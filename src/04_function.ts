@@ -1,4 +1,8 @@
-                                                 // return type // void -> no data
+// Funtion
+// Syntax :-
+// function nameOfFunction(a:type, b:type):returntype
+                                               
+                        // return type // void -> no data
 function birthdayWish(name : string ,age : number): void {
   console.log(` Happy Birthday ${name} you have completed your ${age} years `)
 }

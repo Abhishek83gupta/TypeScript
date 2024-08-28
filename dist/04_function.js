@@ -1,4 +1,7 @@
 "use strict";
+// Funtion
+// Syntax :-
+// function nameOfFunction(a:type, b:type):returntype
 // return type // void -> no data
 function birthdayWish(name, age) {
     console.log(` Happy Birthday ${name} you have completed your ${age} years `);
