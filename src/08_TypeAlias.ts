@@ -43,3 +43,18 @@ let rectangle : Rectangle = {
     height : 20 ,
     width : 1
 }
+
+interface User {
+    id: number;
+    name: string;
+    email: string;
+    isAdmin: boolean;
+  }
+
+  const exampleUser: User = {
+    id: 1,
+    name: "Abhi",
+    email: "Abhi@gmail.com",
+    isAdmin: true,
+  };
+  

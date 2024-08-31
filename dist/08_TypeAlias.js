@@ -19,3 +19,9 @@ let rectangle = {
     height: 20,
     width: 1
 };
+const exampleUser = {
+    id: 1,
+    name: "Abhi",
+    email: "Abhi@gmail.com",
+    isAdmin: true,
+};
