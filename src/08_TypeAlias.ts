@@ -49,6 +49,7 @@ interface User {
     name: string;
     email: string;
     isAdmin: boolean;
+    isAuthenticated : boolean
   }
 
   const exampleUser: User = {
@@ -56,5 +57,6 @@ interface User {
     name: "Abhi",
     email: "Abhi@gmail.com",
     isAdmin: true,
+    isAuthenticated : false
   };
   

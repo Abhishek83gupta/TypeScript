@@ -24,4 +24,5 @@ const exampleUser = {
     name: "Abhi",
     email: "Abhi@gmail.com",
     isAdmin: true,
+    isAuthenticated: false
 };
